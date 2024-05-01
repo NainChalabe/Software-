@@ -1,0 +1,52 @@
+*Manual Técnico del Software*
+
+Este manual técnico proporciona una descripción detallada de la arquitectura, tecnologías utilizadas, instrucciones de instalación, configuración y mantenimiento del Sistema de Gestión de Envíos.
+
+---
+
+# 1. Arquitectura del Software
+
+El sistema está diseñado siguiendo el paradigma de programación orientada a objetos en Java. Consiste en las siguientes clases principales:
+
+- Envío: Clase padre que representa un envío genérico, con atributos como peso, dimensiones, fragilidad y datos del remitente y destinatario.
+  
+- Paquete, DocumentoUrgente, ArticuloFragil:** Clases hijas que heredan de la clase Envío y representan diferentes tipos de envíos con características específicas.
+
+- Factura: Clase encargada de generar una factura detallada para cada envío, incluyendo información del remitente, destinatario, detalles del paquete y costo total del envío.
+
+# 2. Tecnologías Utilizadas
+
+El desarrollo del software se llevó a cabo utilizando las siguientes tecnologías y herramientas:
+
+- Java: Lenguaje de programación principal utilizado para el desarrollo del sistema.
+  
+- IDE: Se recomienda el uso de un entorno de desarrollo integrado (IDE) como Eclipse, IntelliJ IDEA o NetBeans para la escritura, compilación y ejecución del código.
+
+- Git y GitHub: Git se utilizó para el control de versiones del código fuente, y GitHub como plataforma de alojamiento y colaboración para el repositorio del proyecto.
+
+# 3. Instrucciones de Instalación
+
+Para instalar y ejecutar el Sistema de Gestión de Envíos, siga estos pasos:
+
+1. Instalación de Java: Descargue e instale Java SE Development Kit (JDK) desde el sitio web oficial de Oracle o adoptOpenJDK según su sistema operativo.
+
+2. Instalación de un IDE: Descargue e instale un IDE compatible con Java, como Eclipse, IntelliJ IDEA o NetBeans, en su computadora.
+
+3. Clonar el Repositorio: Clone o descargue el repositorio del proyecto desde GitHub a su máquina local utilizando Git o el botón de descarga disponible en la página del repositorio.
+
+4. Configuración del Proyecto: Abra el proyecto en su IDE y configure el JDK en la configuración del proyecto si es necesario.
+
+5. Compilación y Ejecución: Compile el código y ejecute la aplicación desde su IDE para comenzar a utilizar el Sistema de Gestión de Envíos.
+
+
+# 4. Pruebas y Validación
+
+Se han realizado pruebas exhaustivas del software para garantizar su funcionamiento correcto y su conformidad con los requisitos funcionales y no funcionales especificados. Estas pruebas incluyen pruebas unitarias, de integración y de aceptación, así como pruebas de rendimiento y seguridad según corresponda.
+
+### 5. Seguridad
+
+Se han implementado medidas de seguridad para proteger la integridad y la confidencialidad de los datos del usuario, incluyendo el cifrado de datos sensibles y la autenticación de usuarios según sea necesario.
+
+---
+
+Este manual técnico proporciona una guía detallada sobre la arquitectura, tecnologías utilizadas, instalación, mantenimiento y soporte del Sistema de Gestión de Envíos. Para obtener más información sobre el funcionamiento interno del sistema o resolver problemas específicos, consulte la documentación en línea o comuníquese por medio de correo nainchalab@gmail.com.
