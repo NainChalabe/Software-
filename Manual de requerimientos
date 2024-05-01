@@ -1,56 +1,56 @@
-**Manual de Requerimientos Funcionales y No Funcionales**
+Manual de Requerimientos Funcionales y No Funcionales
 
 Este manual detalla los requerimientos funcionales y no funcionales del Sistema de Gestión de Envíos, incluyendo las características que debe cumplir el software y las restricciones que deben tenerse en cuenta durante su desarrollo y operación.
 
 ---
 
-### Requerimientos Funcionales
+# Requerimientos Funcionales
 
 Los requerimientos funcionales describen las funciones y comportamientos específicos que el sistema debe proporcionar para satisfacer las necesidades del usuario. A continuación se detallan los requerimientos funcionales del Sistema de Gestión de Envíos:
 
-1. **Registro de Envíos:**
+1. Registro de Envíos:
    - El sistema debe permitir el registro de nuevos envíos, incluyendo información del remitente, destinatario y detalles del paquete.
    - Los usuarios deben poder seleccionar el tipo de envío entre paquete estándar, documento urgente y artículo frágil.
 
-2. **Cálculo de Costo de Envío:**
+2. Cálculo de Costo de Envío:
    - El sistema debe calcular automáticamente el costo del envío en función del tipo de servicio seleccionado y las características del paquete (peso, dimensiones y fragilidad).
    - El cálculo del costo debe ser preciso y reflejar el costo real del servicio de envío.
 
-3. **Generación de Facturas:**
+3. Generación de Facturas:
    - El sistema debe generar una factura detallada para cada envío registrado, mostrando información del remitente, destinatario, detalles del paquete y costo total del envío.
 
-4. **Visualización de Historial de Envíos:**
+4. Visualización de Historial de Envíos:
    - Los usuarios deben poder ver un historial de todos los envíos registrados en el sistema, incluyendo detalles como fecha de envío, tipo de servicio y costo.
 
-5. **Actualización de Información de Envíos:**
+5. Actualización de Información de Envíos:
    - El sistema debe permitir la actualización de la información de los envíos registrados, incluyendo datos del remitente, destinatario y detalles del paquete.
 
-6. **Eliminación de Envíos:**
+6. Eliminación de Envíos:
    - Los usuarios autorizados deben poder eliminar envíos registrados en el sistema cuando sea necesario.
 
-### Requerimientos No Funcionales
+# Requerimientos No Funcionales
 
 Los requerimientos no funcionales especifican los criterios de calidad y restricciones de rendimiento, seguridad y usabilidad que debe cumplir el sistema. A continuación se detallan los requerimientos no funcionales del Sistema de Gestión de Envíos:
 
-1. **Rendimiento:**
+1. Rendimiento:
    - El sistema debe ser capaz de manejar un gran volumen de envíos sin experimentar una degradación significativa del rendimiento.
    - El tiempo de respuesta del sistema para realizar cálculos y generar facturas debe ser rápido y eficiente.
 
-2. **Seguridad:**
+2. Seguridad:
    - El sistema debe implementar medidas de seguridad para proteger la integridad y confidencialidad de los datos del usuario.
    - Se debe garantizar el cifrado de datos sensibles y la autenticación de usuarios para prevenir accesos no autorizados.
 
-3. **Usabilidad:**
+3. Usabilidad:
    - La interfaz de usuario del sistema debe ser intuitiva y fácil de usar, permitiendo a los usuarios registrar envíos, generar facturas y acceder al historial de envíos de manera sencilla.
    - El sistema debe proporcionar retroalimentación clara y mensajes de error informativos para ayudar a los usuarios a realizar tareas de manera efectiva.
 
-4. **Escalabilidad:**
+4. Escalabilidad:
    - El diseño del sistema debe ser escalable, permitiendo su expansión para satisfacer las necesidades futuras del negocio sin requerir cambios significativos en la arquitectura.
 
-5. **Mantenimiento:**
+5. Mantenimiento:
    - El sistema debe ser fácil de mantener y actualizar, con un código limpio y bien documentado que facilite la comprensión y modificación por parte de los desarrolladores.
 
-6. **Compatibilidad:**
+6. Compatibilidad:
    - El sistema debe ser compatible con diferentes plataformas y navegadores web, asegurando su funcionamiento adecuado en una amplia variedad de entornos de usuario.
 
 ---
