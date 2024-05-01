@@ -1,16 +1,16 @@
-**Manual de Usuario: Sistema de Gestión de Envíos(FastHaul)**
+*Manual de Usuario: Sistema de Gestión de Envíos(FastHaul)*
 
 ¡Bienvenido al Sistema de Gestión de Envíos! Este manual te guiará a través de las funciones y características principales de nuestro sistema para ayudarte a gestionar envíos de manera eficiente y precisa.
 
 ---
 
-### 1. Introducción
+# 1. Introducción
 
 El Sistema de Gestión de Envíos es una herramienta diseñada para facilitar la gestión de envíos de una empresa de transporte de paquetería. Con este sistema, puedes manejar diferentes tipos de envíos, calcular el costo del envío y generar facturas detalladas para cada transacción.
 
-### 2. Funcionalidades Principales
+# 2. Funcionalidades Principales
 
-#### 2.1 Crear un Envío
+# 2.1 Crear un Envío
 
 Para crear un nuevo envío, sigue estos pasos:
 
@@ -18,20 +18,20 @@ Para crear un nuevo envío, sigue estos pasos:
 2. Selecciona el tipo de servicio de envío que deseas utilizar (Estándar, Urgente o Artículo Frágil).
 3. Proporciona la información requerida, como los datos del remitente y destinatario, el peso, dimensiones y fragilidad del paquete.
 
-#### 2.2 Calcular el Costo del Envío
+# 2.2 Calcular el Costo del Envío
 
 Una vez que has ingresado los detalles del envío, el sistema calculará automáticamente el costo del envío en función de las tarifas establecidas y las características del paquete.
 
-#### 2.3 Generar una Factura
+# 2.3 Generar una Factura
 
 Después de calcular el costo del envío, puedes generar una factura detallada que incluye la información del envío y el costo total.
 
-### 3. Requisitos del Sistema
+# 3. Requisitos del Sistema
 
 - Java Runtime Environment (JRE) instalado en tu dispositivo.
 - Acceso al código fuente del Sistema de Gestión de Envíos para realizar modificaciones.
 
-### 4. Instrucciones de Uso
+# 4. Instrucciones de Uso
 
 Para utilizar el Sistema de Gestión de Envíos, sigue estos pasos:
 
@@ -39,7 +39,7 @@ Para utilizar el Sistema de Gestión de Envíos, sigue estos pasos:
 2. Abre el proyecto en tu entorno de desarrollo Java preferido (por ejemplo, Eclipse, IntelliJ IDEA).
 3. Ejecuta la aplicación desde tu entorno de desarrollo o mediante la línea de comandos.
 
-### 5. Ejemplo de Uso
+# 5. Ejemplo de Uso
 
 Supongamos que deseas enviar un paquete estándar:
 
@@ -48,7 +48,7 @@ Supongamos que deseas enviar un paquete estándar:
 3. Proporciona los detalles del paquete, como peso, dimensiones y fragilidad.
 4. El sistema calculará automáticamente el costo del envío y mostrará una factura detallada.
 
-### 6. Soporte Técnico
+# 6. Soporte Técnico
 
 Para obtener ayuda adicional o reportar problemas técnicos, no dudes en contactar a nuestro equipo de soporte técnico en support@example.com.
 
