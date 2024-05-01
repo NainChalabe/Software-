@@ -9,7 +9,7 @@ public class Main {
         for (char caracter : texto.toCharArray()) {
             System.out.print(caracter);
             try {
-                Thread.sleep(0);
+                Thread.sleep(30);
             } catch (InterruptedException ex) {
                 Thread.currentThread().interrupt();
             }
