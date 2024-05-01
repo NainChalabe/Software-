@@ -1,10 +1,15 @@
 # Software-
-Sistema de gestión de una empresa de transporte de paquetería
+**Sistema de gestión de una empresa de transporte de paquetería**
 
-Problema presentado:
+**Importante leer antes de su uso:**
+**Manual de usuario**
+**Manual de requerimientos funcionales y no funcionales**
+**Manual técnico del software**
+
+**Problema presentado:**
 Imagina que estás trabajando en el desarrollo de un sistema de gestión de una empresa de transporte de paquetería. Necesitas diseñar un conjunto de clases que permitan manejar diferentes tipos de envíos, como paquetes estándar, documentos urgentes y artículos frágiles. Además, debes considerar cómo calcular el costo del envío en función del tipo de servicio y las características del paquete, como peso, dimensiones y fragilidad. ¿Cómo estructurarías estas clases en un diseño orientado a objetos y qué métodos implementarías para garantizar un cálculo preciso y eficiente del costo del envío?
 
-Desarrollado:
+**Desarrollado:**
 
 1. **Clase padre**: ("Envio"): Esta clase representa un envío genérico e incluye atributos como peso, dimensiones, fragilidad y los detalles del remitente y destinatario. También implementa un método para calcular el costo del envío, que es común para todos los tipos de envíos. Podrías considerar refinar este método en clases hijas según las necesidades específicas de cada tipo de envío.
 
